@@ -1,0 +1,11 @@
+autoload -Uz vcs_info
+precmd() { vcs_info }
+zstyle ':vcs_info:git:*' formats '%F{red}[%b]'
+setopt PROMPT_SUBST
+PROMPT='%F{green}%2~ ${vcs_info_msg_0_} %f%# '
+
+set -o vi
+alias ls='ls -G'
+alias ll='ls -lG'
+alias gu='git add -u'
+alias ga='git commit --amend --author="edersantana <eder@macbook.com>"'
