@@ -1,8 +1,8 @@
 # dot
 All that you need, all that you'll get
 
-terminal
+terminal   
 ![](./imgs/visual.png)
 
-vim
+vim     
 ![](./imgs/vim.png)
