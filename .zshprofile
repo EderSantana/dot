@@ -8,5 +8,4 @@ set -o vi
 alias ls='ls -G'
 alias ll='ls -lG'
 alias gu='git add -u'
-alias ga='git commit --amend --author="edersantana <eder@macbook.com>"'
 alias gs='git status'
