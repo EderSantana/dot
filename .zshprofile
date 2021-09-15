@@ -10,3 +10,6 @@ alias ll='ls -lG'
 alias gu='git add -u'
 alias gs='git status'
 alias nbrun='jupyter nbconvert --to notebook --execute '
+
+bindkey -v
+bindkey '^R' history-incremental-search-backward
